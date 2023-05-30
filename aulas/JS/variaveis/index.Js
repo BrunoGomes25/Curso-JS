@@ -8,3 +8,4 @@
 // nao utiliza var, utilize let sempre
 let nome = 'amigao';
 console.log(nome)
+//testando se aprendo a usar o git
