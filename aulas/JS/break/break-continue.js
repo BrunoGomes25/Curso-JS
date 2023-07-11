@@ -1,4 +1,4 @@
-const amigoes = ['piruca', 'douglete', 'nandao', 'eurias', 'jao', 'jean', 'victoria']
+const amigoes = ['piruca', 'douglete', 'nandao', 'eurias', 'jao', 'jean', 'victoria'];
 
 for( let absurdo of amigoes){
     if(absurdo === 'douglete') {
@@ -10,5 +10,5 @@ for( let absurdo of amigoes){
     if(absurdo === 'jao') {
         break;
     }
-    console.log(absurdo)
+    console.log(absurdo);
 }
