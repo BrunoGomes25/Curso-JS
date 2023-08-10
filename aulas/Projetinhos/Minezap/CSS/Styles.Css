@@ -1,0 +1,46 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.BackGround{
+    display: flex;
+    background-color: blueviolet;
+    height: 800px;
+    max-width:1200px;
+    margin-top: 100px;
+    margin-left: 700px;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.Zap{
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: violet;
+    margin: 30px;
+    border: 1px solid;
+    color: white;
+}
+.Zap:hover{
+    border-color: aqua;
+}
+.Botao{
+    border-radius:10px ;
+    padding: 8px 30px;
+    background-color: violet;
+    border: 1px solid;
+    cursor: pointer;
+    color: white;
+}
+.Botao:hover{
+    border-color: aqua;
+}
+h1{
+    color: white;
+}
+#digitando{
+    display: none;
+    color: #000;
+}
