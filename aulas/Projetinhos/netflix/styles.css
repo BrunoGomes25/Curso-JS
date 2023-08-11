@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.html {
+   font-size: 10px;
+}
+.black{
+    background-color: black;
+
+}
+.background{
+    display: flex;
+    position: relative;
+    background-image: url(/NetFlixCopy/IMG/netflixbackground.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.primeiro-layout{
+    position: absolute;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.background::before{
+  position:absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.cabecalho{
+    position:relative;
+    display: flex;
+    align-items: center;
+    max-width: 200rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 18rem;
+}
+.cabecalho .netflix{
+    position:relative;
+    display: flex;
+    align-items: flex-start;
+    max-width: 200rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 5rem;
+    color: red;
+    right: 60rem;
+}
+.cabecalho .linguagem{
+    position:relative;
+    display: flex;
+    align-items: flex-start;
+    max-width: 200rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 55rem; 
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 5%;
+}
+.cabecalho .button{
+    position:relative;
+    display: flex;
+    align-items: flex-start;
+    max-width: 200rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 57rem;
+    padding:0.5rem ;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 15%;
+}
+.main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250rem;
+    flex-wrap: wrap;
+    flex-direction:column;
+    gap: 2rem;
+    font-family: sans-serif;
+}.main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250rem;
+    flex-wrap: wrap;
+    flex-direction:column;
+    gap: 2rem;
+}
+.main-text h1{
+    font-size: 4.8rem;
+} 
+.main-text p{
+    font-size: 2.4rem;
+} 
+.main-text label{
+    font-size: 2rem;
+    display: block;
+} 
+.main-text input{
+    font-size: 3rem;
+    position: relative;
+    display: flex;
+    width: 50rem;
+    right: 10rem;
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+} 
+.main-text button{
+    position: relative;
+    display: inline;
+    bottom: 7.7rem;
+    left: 25rem;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    font-size: 3rem;
+}
+.blue-back{
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.TV{
+    display: flex;
+    flex-direction: row;
+    min-width: 100vh;
+    border-bottom: 0.5rem solid gray;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.TV img{
+    height: auto;
+    width: auto;
+}
+.TV h2{
+    font-size: 6.2rem;
+}
+.TV p{
+    font-size: 2.4rem;
+}
+.assista{
+    display: flex;
+    flex-direction: row;
+    min-width: calc(100vh - 500rem);
+    border-bottom: 0.5rem solid gray;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.assista img{
+    height: auto;
+    width: auto;
+}
+.assista h2{
+    font-size: 6.2rem;
+}
+.assista p{
+    font-size: 2.4rem;
+}
+.Perfis{
+    display: flex;
+    flex-direction: row;
+    min-width: calc(100vh - 500rem);
+    border-bottom: 0.5rem solid gray;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.Perfis img{
+    height: auto;
+    width: auto;
+}
+.Perfis h2{
+    font-size: 6.2rem;
+}
+.Perfis p{
+    font-size: 2.4rem;
+}
+.baixar{
+    display: flex;
+    flex-direction: row;
+    min-width: calc(100vh - 500rem);
+    border-bottom: 0.5rem solid gray;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.baixar img{
+    height: auto;
+    width: auto;
+}
+.baixar h2{
+    font-size: 6.2rem;
+}
+.baixar p{
+    font-size: 2.4rem;
+}
+.navegaçao{
+    position: relative;
+    color: white;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 150rem;
+    margin-left: 30rem;
+    
+    
+}
+.navegaçao ul{
+    justify-content:center;
+    align-items: flex-start;
+}
+.navegaçao li{
+    display: flex;
+    flex-direction: column;
+    font-size: 5rem;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 1rem;
+    margin-top: 1rem;
+    background-color: grey;
+    transition: 0.3s ease-in-out;
+}
+.navegaçao li:hover{
+    background-color: red;
+    
+}
+.perguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 150rem;
+    font-size: 20px;
+    gap: 2rem;
+}
+.cadastro input{
+    font-size: 2.4rem;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+.cadastro button{
+    font-size: 2.4rem;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+}
