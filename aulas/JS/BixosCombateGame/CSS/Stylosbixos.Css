@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Background{
+    height: 700px;
+    width: 800px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1000px;
+    flex-wrap: wrap;
+}
+.titulo{
+    margin: 30px;
+}
+.Main{
+    background-color: gray;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+.Batalha{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.imagem-espaço{
+    width: calc(25% - 20px);
+    margin-bottom: px;
+}
+.imagem-espaço img{
+    background-color: white;
+}
+.select{
+    position: relative;
+    text-align: center;
+    width:500px;
+    margin-left: 50px;
+}
+.desafiante{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.Personagens{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.imagem-espaço2{
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+}
+.imagem-espaço2 img{
+    background-color: white;
+    padding: 10px;
+    border: 3px solid yellow;
+}
+.Enemy{
+    padding: 15px;
+    padding-right: 50px;
+}
+.VS{
+    text-align: center;
+    margin-top: 5px;
+}
+.Battlefield{
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+.Amigao{
+    padding: 15px;
+    padding-right: 50px;
+}
