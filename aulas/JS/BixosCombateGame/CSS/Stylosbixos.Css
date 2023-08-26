@@ -53,7 +53,10 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
- 
+}
+.personagemSelecionavel{
+    width: 100px;
+    height: 100px;
 }
 
 .imagem-espaço2{
