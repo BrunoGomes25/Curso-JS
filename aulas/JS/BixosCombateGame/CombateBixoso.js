@@ -15,14 +15,24 @@ const personagens = [
    {nome:"Shape", image:""},
    {nome:"Beleza", image:""}
   ];
-  function getRandomIndex(max) {
-    return Math.floor(Math.random() * max);
-  }
+ 
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+
   function preenchimentoAleatorio() {
+    const personagemEmbaralhado = [...personagens]
+    shuffleArray(personagemEmbaralhado)
     const imagens = document.querySelectorAll(".personagemSelecionavel");
     for (let i = 0; i < imagens.length; i++) {
-        const aleatorio = getRandomIndex(personagens.length);
-        imagens[i].src = personagens[aleatorio];
+        
+        imagens[i].src = personagemEmbaralhado[i];
     }
   }
   preenchimentoAleatorio();
+
+  Battlefield-img
